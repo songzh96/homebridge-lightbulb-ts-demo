@@ -1,0 +1,16 @@
+{
+  "bridge": {
+      "name": "Homebridge",
+      "username": "94:A1:A2:BE:0B:33",
+      "port": 59666,
+      "pin": "031-45-666"
+  },
+  "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+  "accessories": [
+      {
+          "accessory": "MyLightbulb",
+          "name": "灯"
+      }
+  ],
+  "platforms": []
+}
